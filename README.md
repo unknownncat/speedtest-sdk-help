@@ -20,8 +20,9 @@ Como usar?
 import {SpeedTest} from "speedtest-sdk";
 
 (async () => {
-  const data = await SpeedTest()
-})()
+  const data = await SpeedTest();
+  console.log(data);
+})();
 ```
 
 ## com formatação
@@ -31,6 +32,7 @@ OBS: não contém todos os items que o modo sem formatação disponibiliza
 import {SpeedTest} from "speedtest-sdk";
 
 (async () => {
-  const data = await SpeedTest(true)
-})()
+  const data = await SpeedTest(true);
+  console.log(data)
+})();
 ```
