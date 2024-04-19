@@ -20,7 +20,7 @@ Como usar?
 import {SpeedTest} from "speedtest-sdk";
 
 (async () => {
-const data = await SpeedTest()
+  const data = await SpeedTest()
 })()
 ```
 
@@ -31,6 +31,6 @@ OBS: não contém todos os items que o modo sem formatação disponibiliza
 import {SpeedTest} from "speedtest-sdk";
 
 (async () => {
-const data = await SpeedTest(true)
+  const data = await SpeedTest(true)
 })()
 ```
